@@ -12,60 +12,12 @@ body {
   margin: 0;
   line-height: 1.3;
   font-family: "Karla", sans-serif;
+  background-color: #e5eff5;
+  padding: 1.875rem;
 }
 
 h1, h2, h3 {
   font-weight: bold;
-}
-
-.price-block div {
-  padding: 1.875rem;
-}
-
-.price-block__community .title {
-  color: #2ab2af;
-}
-
-.price-block__community .subtitle {
-  color: #c0df34;
-}
-
-.price-block__community .content {
-  color: #98a6bd;
-}
-
-.price-block__subscription {
-  background-color: #2ab2af;
-}
-
-.price-block__subscription h1 {
-  color: #e5eff5;
-}
-
-.price-block__subscription h2 {
-  color: #e5eff5;
-}
-
-.price-block__subscription span {
-  color: white;
-}
-
-.price-block__subscription p {
-  color: #e5eff5;
-}
-
-.price-block__Why {
-  color: white;
-  background-color: #2ee0dd;
-}
-
-.price-block__Why ul {
-  padding: 0;
-}
-
-.price-block__Why ul > li {
-  list-style-type: none;
-  color: #e5eff5;
 }
 
 button, .button {
@@ -75,5 +27,56 @@ button, .button {
   color: white;
   background-color: #c0df34;
   padding: 0.625rem;
+}
+
+.price-block div {
+  padding: 1.875rem;
+}
+
+.price-block .community {
+  background-color: white;
+}
+
+.price-block .community__title {
+  color: #2ab2af;
+}
+
+.price-block .community__subtitle {
+  color: #c0df34;
+}
+
+.price-block .community__content {
+  color: #98a6bd;
+}
+
+.price-block .subscription {
+  background-color: #2ab2af;
+}
+
+.price-block .subscription__title {
+  color: #e5eff5;
+}
+
+.price-block .subscription__fee {
+  color: #e5eff5;
+}
+
+.price-block .subscription span {
+  color: white;
+}
+
+.price-block .subscription__content {
+  color: #e5eff5;
+}
+
+.price-block .why {
+  color: white;
+  background-color: #2ee0dd;
+}
+
+.price-block .why__list {
+  padding: 0;
+  list-style-type: none;
+  color: #e5eff5;
 }
 /*# sourceMappingURL=styles.css.map */

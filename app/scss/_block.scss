@@ -1,0 +1,64 @@
+.price-block {
+
+    div {
+        padding: 1.875rem;
+    }
+
+    .community {
+
+        background-color: $white;
+
+        &__title {
+            color: $cyan;
+        }
+
+        &__subtitle {
+            color: $yellow
+        }
+
+        &__content {
+            color: $grayishBlue;
+        }
+    }
+
+    .subscription {
+        background-color: $cyan;
+
+        &__title {
+            color: $lightGray;
+        }
+
+        &__fee {
+            color: $lightGray;
+        }
+
+        span {
+            color: $white;
+        }
+
+        &__content {
+            color: $lightGray;
+        }
+
+        &__cta {
+
+        }
+    }
+    
+    .why {
+        color: $white;
+        background-color: $lightCyan;
+
+        &__list {
+            // caused li spacing
+            padding: 0;
+            list-style-type: none;
+            color: $lightGray;
+        }
+
+        &__list-item {
+            
+        }
+
+    }
+}
