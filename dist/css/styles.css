@@ -29,6 +29,22 @@ button, .button {
   padding: 0.625rem;
 }
 
+@media (min-width: 62.5em) {
+  .price-block {
+    width: 60rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .price-block .community {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+}
+
 .price-block div {
   padding: 1.875rem;
 }
